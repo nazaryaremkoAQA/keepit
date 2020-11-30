@@ -68,7 +68,7 @@ public class UserModel {
         if (o == null || getClass() != o.getClass()) return false;
         UserModel userModel = (UserModel) o;
         return Objects.equals(enabled, userModel.enabled) &&
-//                Objects.equals( created.getTime(), userModel.created.getTime()) &&
+                Objects.equals( created.getTime(), userModel.created.getTime()) &&
                 Objects.equals(product, userModel.product) &&
                 Objects.equals(parent, userModel.parent) &&
                 Objects.equals(deletion_deadline,userModel.deletion_deadline) &&
